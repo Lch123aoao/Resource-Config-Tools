@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root platform="">
+  <header table="UnitData" desc="这是文本">
+    <field order="0" name="Id" type="int" desc="唯一Id索引" />
+    <field order="1" name="KeyName" type="string" desc="唯一Key索引" />
+    <field order="2" name="EntityId" type="int" desc="实体资源id" />
+    <field order="3" name="Name" type="string" desc="单位名称" />
+    <field order="4" name="HP" type="int" desc="血量" />
+    <field order="5" name="EXP" type="int" desc="经验值" />
+    <field order="6" name="Grade" type="int" desc="单位品阶" />
+    <field order="7" name="SkillList" type="string" desc="初始持有技能" />
+  </header>
+  <item Id="10000" KeyName="unit0" EntityId="10000" Name="玩家" HP="1000" EXP="0" Grade="0" SkillList="1050" />
+  <item Id="10001" KeyName="unit1" EntityId="10001" Name="敌人1" HP="1000" EXP="300" Grade="1" SkillList="1000" />
+  <item Id="10002" KeyName="unit2" EntityId="10001" Name="敌人2" HP="1000" EXP="300" Grade="1" SkillList="1000" />
+  <item Id="10003" KeyName="unit3" EntityId="10001" Name="敌人3" HP="1000" EXP="300" Grade="2" SkillList="1000" />
+  <item Id="10004" KeyName="unit4" EntityId="10001" Name="敌人4" HP="1000" EXP="300" Grade="2" SkillList="1000" />
+  <item Id="10005" KeyName="unit5" EntityId="10001" Name="敌人5" HP="1000" EXP="300" Grade="3" SkillList="1000" />
+  <item Id="10006" KeyName="unit6" EntityId="10001" Name="敌人6" HP="1000" EXP="300" Grade="3" SkillList="1000" />
+  <item Id="10007" KeyName="unit7" EntityId="10001" Name="敌人7" HP="1000" EXP="300" Grade="4" SkillList="1000" />
+  <item Id="10008" KeyName="unit8" EntityId="10001" Name="敌人8" HP="1000" EXP="300" Grade="4" SkillList="1000" />
+  <item Id="10009" KeyName="unit9" EntityId="10001" Name="敌人9" HP="1000" EXP="300" Grade="5" SkillList="1000" />
+</root>

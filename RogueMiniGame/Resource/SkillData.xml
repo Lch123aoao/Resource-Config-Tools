@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root platform="">
+  <header table="SkillData" desc="这是文本">
+    <field order="0" name="Id" type="int" desc="唯一Id索引" />
+    <field order="1" name="KeyName" type="string" desc="唯一Key索引" />
+    <field order="2" name="EntityId" type="int" desc="skill实体id" />
+    <field order="3" name="SkillTemplateId" type="int" desc="技能模板id" />
+    <field order="4" name="TowardType" type="int" desc="朝向类型" />
+    <field order="5" name="AttackValue" type="int" desc="攻击力" />
+    <field order="6" name="SkillCD" type="int" desc="攻击间隔/CD" />
+    <field order="7" name="BaseMoveSpeed" type="int" desc="基本移动速度" />
+    <field order="8" name="UsageCount" type="int" desc="作用次数" />
+    <field order="9" name="Duration" type="int" desc="持续时间" />
+  </header>
+  <item Id="1000" KeyName="skill1" EntityId="-1" SkillTemplateId="1" TowardType="-1" AttackValue="10" SkillCD="3" BaseMoveSpeed="0" UsageCount="-1" Duration="-1" />
+  <item Id="1050" KeyName="skill2" EntityId="20001" SkillTemplateId="1" TowardType="0" AttackValue="20" SkillCD="5" BaseMoveSpeed="10" UsageCount="1" Duration="8" />
+  <item Id="1051" KeyName="skill3" EntityId="20001" SkillTemplateId="2" TowardType="0" AttackValue="20" SkillCD="5" BaseMoveSpeed="10" UsageCount="-1" Duration="8" />
+</root>

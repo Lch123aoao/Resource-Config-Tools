@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root platform="">
+  <header table="SkillTemplate" desc="这是文本">
+    <field order="0" name="Id" type="int" desc="唯一Id索引" />
+    <field order="1" name="KeyName" type="string" desc="唯一Key索引" />
+    <field order="2" name="className" type="string" desc="模板名字" />
+  </header>
+  <item Id="1" KeyName="skill1" className="T_StraightFly" />
+  <item Id="2" KeyName="skill2" className="T_RandomBombing" />
+  <item Id="3" KeyName="skill3" className="T_RotateWithMe" />
+</root>

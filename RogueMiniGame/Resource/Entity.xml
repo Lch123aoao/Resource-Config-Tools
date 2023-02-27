@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root platform="">
+  <header table="Entity" desc="这是文本">
+    <field order="0" name="Id" type="int" desc="唯一Id索引" />
+    <field order="1" name="KeyName" type="string" desc="唯一Key索引" />
+    <field order="2" name="AssetName" type="string" desc="资源名字" />
+  </header>
+  <item Id="10000" KeyName="Player" AssetName="Player" />
+  <item Id="10001" KeyName="Monster1" AssetName="Monster1" />
+  <item Id="10002" KeyName="Monster2" AssetName="Monster2" />
+  <item Id="10003" KeyName="Monster3" AssetName="Monster3" />
+  <item Id="10004" KeyName="Monster4" AssetName="Monster4" />
+  <item Id="10005" KeyName="Monster5" AssetName="Monster5" />
+  <item Id="10006" KeyName="Monster6" AssetName="Monster6" />
+  <item Id="10007" KeyName="Monster7" AssetName="Monster7" />
+  <item Id="10008" KeyName="Monster8" AssetName="Monster8" />
+  <item Id="10009" KeyName="Monster9" AssetName="Monster9" />
+  <item Id="20001" KeyName="木头" AssetName="Wood" />
+</root>
